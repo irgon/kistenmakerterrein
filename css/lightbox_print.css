@@ -1,0 +1,13 @@
+body * {
+display:none;
+text-align:center;
+margin:0 auto;
+position:static;
+}
+#lightbox, #outerImageContainer,
+#imageContainer, #lightboxImage,
+#imageDataContainer, #imageData,
+#imageDetails, #imageDetails * {
+display:block!important;
+opacity:1.0!important;
+}

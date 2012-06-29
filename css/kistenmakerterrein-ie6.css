@@ -1,0 +1,21 @@
+#wrapper {
+  background: none;
+}
+
+#content {
+  -ie-xp: expression(
+    this.parsed ? 0 : (
+      this.offsetHeight < (document.documentElement.clientHeight - (document.getElementById('submenu') ? document.getElementById('submenu').offsetHeight : 0) - document.getElementById('top').offsetHeight - document.getElementById('menu').offsetHeight) ? this.style.height = ((document.documentElement.clientHeight - (document.getElementById('submenu') ? document.getElementById('submenu').offsetHeight : 0) - document.getElementById('top').offsetHeight - document.getElementById('menu').offsetHeight) + 'px') : false,
+    	this.parsed = 1
+    )
+  );
+}
+
+#top, #content {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/wrapper.png", sizingMethod="scale");
+}
+
+div {
+  zoom: 1;
+}

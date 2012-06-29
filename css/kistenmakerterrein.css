@@ -1,0 +1,390 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, button
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 16px;
+}
+
+html {
+	overflow: -moz-scrollbars-vertical;
+}
+
+html, body {
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+}
+
+body {
+  background: url(../img/pattern.png);
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+input.submit,
+a.submit {
+  width: 160px;
+  height: 24px;
+  padding: 0px;
+  border: none;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  background: url(../img/button.png) no-repeat;
+  font-size: 12px;
+  color: #434343;
+  border-bottom: solid 1px #ffffff;
+  border-top: solid 1px #ffffff;
+}
+
+input.submitForm {
+  width: 160px;
+  height: 24px;
+  padding: 0px;
+  border: none;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  background: url(../img/button.png) no-repeat;
+  font-size: 12px;
+  color: #434343;
+  border-bottom: solid 1px #ffffff;
+  border-top: solid 1px #ffffff;
+}
+
+div.twocolumn {
+  overflow: hidden;
+}
+
+div.twocolumn ul {
+  width: 50%;
+  float: left;
+  display: block;
+  list-style: none;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: normal;
+  color: #000000;
+}
+
+a.show {
+  margin: 20px 0;
+  display: block;
+}
+
+#wrapper {
+  background: url(../img/wrapper.png) repeat-y;
+  background-position: center top;
+}
+
+#top,
+#content {
+  padding: 0 12px;
+/*  background: url(../img/wrapper.png) repeat-y;*/
+  width: 650px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#top {
+  height: 175px;
+  overflow: hidden;
+}
+
+#top img {
+  width: 650px;
+  height: 175px;
+  display: block;
+}
+
+#menu {
+  height: 21px;
+  background: #779e00;
+  border-top: solid 1px #ffffff;
+  border-bottom: solid 1px #ffffff;
+  overflow: hidden;
+}
+
+#menu ul {
+  display: block;
+  width: 650px;
+  margin: -1px auto;
+  list-style: none;
+  text-align: center;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+}
+
+#menu ul li {
+  display: inline;
+  padding: 4px 12px 5px;
+  line-height: 22px;
+  height: 22px;
+}
+
+#menu ul li.selected {
+  background: #d0e496;
+}
+
+#menu ul li:hover {
+  background: #d0e496;
+}
+
+#menu ul li:hover a {
+   color: #4f6117;
+}
+
+#menu ul li a {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#menu ul li.selected a {
+  color: #4f6117;
+}
+
+#submenu {
+  height: 20px;
+  background: #d0e496;
+  overflow: hidden;
+}
+
+#submenu ul {
+  display: block;
+  width: 650px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  height: 21px;
+  line-height: 21px;
+  overflow: hidden;
+}
+
+#submenu ul li {
+  display: inline;
+  padding: 4px 10px;
+  height: 21px;
+  line-height: 21px;
+}
+
+#submenu ul li.selected {
+  background: #edf5d6;
+}
+
+#submenu ul li:hover {
+  background: #edf5d6;
+}
+
+#submenu ul li:hover a {
+   color: #374900;
+}
+
+#submenu ul li a {
+  font-weight: bold;
+  color: #374900;
+  text-decoration: none;
+}
+
+
+div.column-left {
+  width: 353px;
+  float: left;
+  overflow: hidden;
+  padding: 0 30px 50px 70px;
+}
+
+div.column-right {
+  width: 187px;
+  float: right;
+  background: #ebebeb;
+  overflow: hidden;
+  padding-top: 115px;
+}
+
+div.column-right input.submit,
+div.column-right a.submit {
+  width: 187px;
+  height: 51px;
+  line-height: 51px;
+  background: url(../img/big-button.png) no-repeat;
+  font-size: 14px;
+  display: block;
+  text-decoration: none;
+  border-bottom: solid 1px #ffffff;
+  border-top: solid 1px #ffffff;
+}
+
+div.column-right input.submit:hover,
+div.column-right a.submit:hover {
+  background: url(../img/big-button-hover.png) no-repeat;
+}
+
+div.column-right img {
+  display: block;
+}
+
+div.column-left h1,
+div.column-left h2 {
+  margin: 50px 0 50px -70px;
+  padding-left: 64px;
+  background: #ffffff url(../img/h1-left.png) repeat-y;
+  height: 15px;
+}
+
+div.column-left h1 span,
+div.column-left h2 span {
+  display: block;
+  height: 15px;
+  padding: 0 74px 0 6px;
+  background: #ffffff url(../img/h1-right.png) no-repeat;
+  background-position: right bottom;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #779e00;
+  font-weight: bold;
+  float: left;
+}
+
+div.column-left form p {
+  padding: 0;
+  margin: 30px 0;
+}
+
+div.column-left dl {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+
+div.column-left dt {
+  width: 80px;
+  float: left;
+}
+
+div.column-left form dt {
+  width: 130px;
+}
+
+div.column-left dd {
+  overflow: hidden;
+}
+
+div.column-left form select,
+div.column-left dd input {
+  padding: 3px;
+  border: solid 1px #000000;
+  width: 118px;
+}
+
+div.column-left dd input.date {
+  width: 26px;
+}
+
+div.column-left dd input.post {
+  width: 53px;
+  margin-right: 1px;
+}
+
+div.column-right h3 {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 0 11px;
+  line-height: 25px;
+  height: 25px;
+  border-bottom: solid 1px #ffffff;
+  cursor: pointer;
+}
+
+div.column-right h3.blue {
+  background: url(../img/right-blue.png) no-repeat;
+  text-align: center;
+  cursor: default;
+  font-size: 14px;
+  border-top: solid 1px #ffffff;
+}
+
+div.column-right h3.red {
+  background: url(../img/right-red.png) no-repeat;
+  height: 23px;
+  line-height: 23px;
+  border-top: solid 1px #ffffff;
+}
+
+div.column-right h3.yellow {
+  background: url(../img/right-yellow.png) no-repeat;
+}
+
+div.column-right h3.green {
+  background: url(../img/right-green.png) no-repeat;
+}
+
+div.column-right p {
+  padding: 12px 8px 14px;
+}
+
+div.column-right div.field {
+  border-bottom: #a7a7a7 solid 1px;
+}
+
+div.column-right div.twocolumn {
+  padding: 12px 18px 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  text-align: center;
+  padding: 2px;
+}
+
+table tr.shade td {
+  background: #ebebeb;
+}
+
+table td.price {
+  text-align: right;
+}
+
+td.buyed,
+dd.buyed {
+  color: #da0000;
+} 
+
+td.reserved,
+dd.reserved {
+  color: #db8731;
+}
+
+td.free,
+dd.free {
+  color: #779e00;
+}
+
+div.column-appartementen {
+  padding-top: 0px;
+}
